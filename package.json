@@ -1,0 +1,31 @@
+{
+  "name": "big-agi-mcp-asst",
+  "version": "1.0.0",
+  "description": "MCP (Model Context Protocol) server for big-AGI with enhanced tools and resources",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "big-agi",
+    "assistant",
+    "model-context-protocol"
+  ],
+  "author": "Jason K Salvador",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "axios": "^1.6.5",
+    "cheerio": "^1.0.0-rc.12",
+    "marked": "^11.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "typescript": "^5.3.3"
+  }
+}
