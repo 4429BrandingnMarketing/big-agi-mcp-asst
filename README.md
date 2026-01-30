@@ -8,6 +8,7 @@ A fully functional standalone desktop application for AI-powered assistance usin
 
 ## Features
 
+### Core Features
 - 🖥️ **Cross-Platform** - Runs on Windows, macOS, and Linux
 - 💬 **Interactive Chat Interface** - Clean, modern UI for conversing with AI
 - 💾 **Save & Load Conversations** - Persist your conversation history
@@ -15,6 +16,19 @@ A fully functional standalone desktop application for AI-powered assistance usin
 - 🎨 **Dark Mode UI** - Easy on the eyes for extended usage
 - 🔒 **Secure Architecture** - Context isolation and security best practices
 - 📦 **Standalone Builds** - Portable executables for all platforms
+
+### 🌟 PREMIUM Features (NEW!)
+- ✨ **Markdown Rendering** - Full GitHub-flavored markdown with rich formatting
+- 🎨 **Syntax Highlighting** - Beautiful code blocks for 7+ languages
+- 📋 **Copy to Clipboard** - One-click copy for messages and code
+- 🔔 **Toast Notifications** - Professional feedback system
+- 🔄 **AI Provider Switcher** - Switch between 30+ APIs in real-time
+- ⚙️ **Settings Panel** - Modern configuration interface
+- 📤 **Export to Markdown/JSON** - Save conversations in multiple formats
+- 🎬 **Premium Animations** - Smooth, professional transitions
+- 💅 **Enhanced UI/UX** - Gradients, hover effects, and polished design
+
+**See [PREMIUM_FEATURES.md](PREMIUM_FEATURES.md) for the complete guide!**
 
 ## Screenshots
 
@@ -245,14 +259,17 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Roadmap
 
+- [x] ~~Markdown rendering in messages~~ ✅ **DONE!**
+- [x] ~~Code syntax highlighting~~ ✅ **DONE!**
+- [x] ~~Export conversations to Markdown/JSON~~ ✅ **DONE!**
+- [x] ~~Integration with 30+ AI services~~ ✅ **DONE!**
 - [ ] Multiple conversation tabs
-- [ ] Markdown rendering in messages
-- [ ] Code syntax highlighting
-- [ ] Export conversations to PDF/HTML
-- [ ] Themes and customization options
+- [ ] Export conversations to PDF
+- [ ] Themes and customization options (light mode)
 - [ ] Plugin system for extensibility
-- [ ] Integration with popular AI services
 - [ ] Voice input/output support
+- [ ] Image generation inline display
+- [ ] Cloud sync across devices
 
 ## Acknowledgments
 
